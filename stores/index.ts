@@ -1,8 +1,8 @@
-import { defineStore } from "pinia";
+import { defineStore } from 'pinia'
 
 const useHomeStore = defineStore('Home', {
   state: () => ({
-name: 'codermmk'
+    name: 'codermmk'
   })
 })
 
