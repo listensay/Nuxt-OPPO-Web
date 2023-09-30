@@ -6,8 +6,11 @@
   },
   "extends": [
       "@nuxtjs/eslint-config-typescript",
-      "plugin:nuxt/recommended"
+      "plugin:nuxt/recommended",
+      "prettier"
   ],
   "plugins": [],
-  "rules": {}
+  "rules": {
+    "vue/multi-word-component-names": "off"
+  }
 }
