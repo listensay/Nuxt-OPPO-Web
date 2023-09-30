@@ -2,6 +2,7 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  css: ['normalize.css'],
   build: {
     // 该文件需要进行Babel转义
     transpile: ['element-plus/es']
